@@ -3,7 +3,7 @@
 ## Criteria A: Planning
 **Problem defenition**
 
-Cliant M is a student studying in ISAK. He is a math enthusiast to the point of enthusiasm, solving difficult math problems and making new math theorems on a daily life. He wants a place on the Internet where he can share his mathematical theorems, problems, and solutions. In the Network, he requires the Login and Register system for using his own account. And he requested to be able to post text and pictures for showing some graphs/fiugre. Also, he strongly requested to be able to use some math text type(ex;Latex, Katex, ...), to make it easy to visuallise. Additionally, he reqires to be able to send some personal message to onother account, for error reporting and collaborative research.
+Cliant M is a student studying in high school. He is a math enthusiast to the point of enthusiasm, solving difficult math problems and making new math theorems on a daily life. He wants a place on the Internet where he can share his mathematical theorems, problems, and solutions. In the Network, he requires the Login and Register system for using his own account. And he requested to be able to post text and pictures for showing some graphs/fiugre. Also, he strongly requested to be able to use some math text type(ex;Latex, Katex, ...), to make it easy to visuallise. Additionally, he reqires to be able to send some personal message to onother account, for error reporting and collaborative research.
 
 **Proposed Solution**
 
