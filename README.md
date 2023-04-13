@@ -20,6 +20,7 @@ Python is an ideal programming language for this application due to its versatil
 
 
 HTML and CSS
+
 HTML and CSS are essential for creating the graphical user interface (GUI) of the application, allowing the client to interact with the system and post mathematical theorems, problems, and solutions. HTML is used to create the structure and content of web pages, while CSS is used to style and format them. Additionally, HTML can be used to incorporate math text types like Latex and Katex, as requested by the client, which will make it easy for the client to visualize mathematical expressions.
 
 
@@ -37,3 +38,19 @@ SQLite is an ideal choice for this application as it provides a lightweight, sel
 4. Able to comment to the post.
 5. Make posts editing system.
 6. Able to do the private chat between multiple accounts.
+
+
+## Criteria B: Design
+**System Diagram**
+
+**UML Diagram**
+
+**ER diagram**
+
+**Flow Diagrams**
+
+**Record of Tasks**
+
+**Test plan**
+
+
