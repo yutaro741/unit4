@@ -183,6 +183,7 @@ def logout():
 
 8: H/P: jinja2(for loop), template_enjine
 The main page needs to be able to see all posts, but it is hard to show all of those posts at once with using only normal HTML. So, I use jinja2 for using for loop for all data, and template_enjine(the things that is in the {{}}) to show each item from python.
+I let the posts to go to the individual posts page for each posts in the lists.
 
 ※The python file is already made, made by just SELECT all of the posts.
 ```.py
@@ -205,7 +206,7 @@ The main page needs to be able to see all posts, but it is hard to show all of t
 Main page is done!!
 
 9: H/O: MathJax
-Finally, I am able to show the data from the database, However, that data that we can see is just a text. i want to see the text, with using the Tex font style. I use MathJax to show all of those things. 
+Finally, I am able to show the data from the database, However, that data that we can see is just a text. i want to see the text, with using the Tex font style. I use MathJax to show all of those things. I set this MathJax to all pages to be able to set the all code.
 ```.py
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
@@ -213,4 +214,36 @@ Finally, I am able to show the data from the database, However, that data that w
 </head>
 <body onload="MathJax.typeset()">
 ...
+```
+
+10: H: Javascript
+To post the new things, people will write the original tex code. However, user has no idea that written tex is write or wrong. So, I tried to make the program to automatically shows the things people write with passing througth tex code. I tried to do that in python code, but it is too much hard work for me. Therefore, I used Javascript to do so.
+```.py
+<form method="POST">
+    <p>title<input id="title" type="text" name="title" onload="title_renderMath()" onchange="title_renderMath()" placeholder="enter a title" value="{{ data[2] }}"></p>
+    <p>content<textarea id="test" name='content' onload="renderMath()" onchange="renderMath()" rows=”3″ cols=”50″ placeholder="enter the content">{{ data[3] }}</textarea></p>
+    <input type="submit" value="Save">
+</form>
+
+......
+
+<script>
+    window.onload = function() {
+        setTimeout(title_renderMath, 5);
+        setTimeout(renderMath, 5);
+    }
+    function title_renderMath() {
+        var input = document.getElementById("title").value;
+        var output = document.getElementById("title_output");
+        output.innerHTML = input.replace(/\n/g, "<br>");
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, output]);
+    }
+
+    function renderMath() {
+        var input = document.getElementById("test").value;
+        var output = document.getElementById("output");
+        output.innerHTML = input.replace(/\n/g, "<br>");
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, output]);
+    }
+</script>
 ```
