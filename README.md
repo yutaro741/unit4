@@ -1,9 +1,13 @@
 # Unit 4: Math project
+![](https://github.com/yutaro741/unit4/blob/main/pictures/craiyon_201247_There_is_pen_at_the_middle_of_the_picture__and_many_math_formula_around_it_.png)[^1]
+[^1]:Craiyon, AI Image Generator, https://www.craiyon.com/. Accessed 7 May 2023.
 
 ## Criteria A: Planning
 **Problem defenition**
 
-Client M is a student studying in high school. He is a math enthusiast to the point of enthusiasm, solving difficult math problems and making new math theorems on a daily life. He wants a place on the Internet where he can share his mathematical theorems, problems, and solutions. He wants not only share his own math work, but want to see the posts that people made. In the Network, he requires the Login system for using and be able to use personal account to manage math posts. Also, he strongly requested to be able to use text font of math, to make it easy to visuallise. In detail, he requires to use Latex(or any other Tex style), because that is the things that is most familiar with him, and also it is the one of the most famous math display system in the world. Additionally, he wants to interact and communicate the people that makes the interesting posts.
+Client M is a student studying in high school. He is a math enthusiast to the point of enthusiasm, solving difficult math problems and making new math theorems on a daily life. He wants a place on the Internet where he can share his mathematical theorems, problems, and solutions. He wants not only share his own math work, but want to see the posts that people made. In the Network, he requires the Login system for using and be able to use personal account to manage math posts. Also, he strongly requested to be able to use text font of math, to make it easy to visuallise. In detail, he requires to use Latex(or any other Tex style), because that is the things that is most familiar with him, and also it is the one of the most famous math display system in the world. Additionally, he wants to interact and communicate the people that makes the interesting posts. (Evidence of consulation[^2])
+
+[^2]:https://github.com/yutaro741/unit4/blob/main/pictures/Screen%20Shot%202023-05-07%20at%2018.12.09.png
 
 **Success Criteria**
 
@@ -23,7 +27,7 @@ Reason of success criteria
 6. For interacting and communicating with each people, chat system is the most appropriate.
 
 The confirmation from cliant
-
+![](https://github.com/yutaro741/unit4/blob/main/pictures/Screen%20Shot%202023-05-07%20at%2020.25.54.png)
 
 **Proposed Solution**
 
@@ -53,7 +57,6 @@ SQLite is an ideal choice for this application as it provides a lightweight, sel
 
 ## Criteria B: Design
 **System Diagram**
-
 
 **UML Diagram**
 
