@@ -3,7 +3,27 @@
 ## Criteria A: Planning
 **Problem defenition**
 
-Cliant M is a student studying in high school. He is a math enthusiast to the point of enthusiasm, solving difficult math problems and making new math theorems on a daily life. He wants a place on the Internet where he can share his mathematical theorems, problems, and solutions. In the Network, he requires the Login and Register system for using his own account. And he requested to be able to post text and pictures for showing some graphs/fiugre. Also, he strongly requested to be able to use some math text type(ex;Latex, Katex, ...), to make it easy to visuallise. Additionally, he reqires to be able to send some personal message to onother account, for error reporting and collaborative research.
+Client M is a student studying in high school. He is a math enthusiast to the point of enthusiasm, solving difficult math problems and making new math theorems on a daily life. He wants a place on the Internet where he can share his mathematical theorems, problems, and solutions. He wants not only share his own math work, but want to see the posts that people made. In the Network, he requires the Login system for using and be able to use personal account to manage math posts. Also, he strongly requested to be able to use text font of math, to make it easy to visuallise. In detail, he requires to use Latex(or any other Tex style), because that is the things that is most familiar with him, and also it is the one of the most famous math display system in the world. Additionally, he wants to interact and communicate the people that makes the interesting posts.
+
+**Success Criteria**
+
+1. The user can register, login and logout of the system.
+2. The user can switch between different pages.
+3. The system can add and edit posts, including information on title, content, and account.
+4. The system is able to show all text with Tex font style.
+5. The user can view all posts that are made by all users.
+6. The user can do the private chat between other accounts.
+
+Reason of success criteria
+1. To be able to use personal account to manage math posts for each user.
+2. For getting the requirements, login, register, post at the same time. Doing all of the requirements at the same page is unnecessary and difficult to use. Therefore, we needs to make multiple pages, and system to move those pages.
+3. The main part of his want.
+4. The main part of his want.
+5. The main part of his want.
+6. For interacting and communicating with each people, chat system is the most appropriate.
+
+The confirmation from cliant
+
 
 **Proposed Solution**
 
@@ -30,18 +50,10 @@ SQLite is an ideal choice for this application as it provides a lightweight, sel
 
 
 
-**Success Criteria**
-
-1. Make Login system and Register system (Encrypt password)
-2. Make Adding posts(title, content, account) system.
-3. Able to use Tex font style for the post.
-4. Able to comment to the post.
-5. Make posts editing system.
-6. Able to do the private chat between multiple accounts.
-
 
 ## Criteria B: Design
 **System Diagram**
+
 
 **UML Diagram**
 
@@ -54,6 +66,7 @@ SQLite is an ideal choice for this application as it provides a lightweight, sel
 **Test plan**
 
 ## Criteria C: Coding##
+From here, I will show the skills that I uses for making this system.
 Python:p, HTML/CSS:H, SQL:Q other ideas: O
 
 1. H: link rel to connect to CSS from HTML.
