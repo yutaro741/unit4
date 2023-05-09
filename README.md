@@ -36,22 +36,25 @@ System The application to manage appliance usage will be developed on the progra
 **Design statement**
 
 ## Rational for the proposed solution
-Why a website?
-Why Python for a website, how is this a good option for the client?(instead of js?)
-Why Flask? why not Django or other Python web frameworks
-Why sqlite?
 
-Python[^4]:“Applications for Python.” Python.org, https://www.python.org/about/apps/#web-and-internet-development. Accessed 9 May 2023.
+**Why a website?**
+Websites can be accessed simply by opening a browser, making them easier to use than applications. Websites can also be accessed from a variety of devices, so they can be used from mobile devices, tablets, and others. Also, website, collaboration among users is facilitated. For example, success criteria No6, I need to be able to make a chat system. Using website is more beneficial and useful than other systems(eg:system belongs to download).
 
-Python is an ideal programming language for this application due to its versatility, especially when it comes to handling data and working with databases. The use of Python will also allow for the integration of math text types such as Latex and Katex, which will be essential for visualizing mathematical formulas and theorems. Additionally, Python's robust library support will make it possible to implement the necessary features for the login, registration, messaging, and posting functionality efficiently. Therefore, Python is the ideal choice for this project due to its flexibility, simplicity, and efficient development capabilities.
+**Why Python?**[^4]
+Python is an ideal programming language for this application due to its versatility, especially when it comes to handling data and working with databases. The use of Python will also allow for the integration of math text types such as Latex and Katex, which will be essential for visualizing mathematical formulas and theorems. Additionally, Python's robust library support will make it possible to implement the necessary features for the login, registration, messaging, and posting functionality efficiently. I had other choises of programming launguages, such as JavaScript[^5], but integration with web frameworks like Flask, and scientific computing libraries like NumPy, SciPy, and Matplotlib was　Superior than Javascript. Also, I can use Javascript by putting the code in the HTML file, but using python while using javascript as a main programming launguage is not efficient. Therefore, python is the best programming launguage for doing this project.
 
-[^4]
+[^4]:“Applications for Python.” Python.org, https://www.python.org/about/apps/#web-and-internet-development. 
+[^5]:Learn JavaScript Online - Courses for Beginners - javascript.com, https://www.javascript.com/.
 
-SQLite
+**Why Flask?**[^5]
+Flask is a lightweight web framework in Python that is particularly well-suited for building small to medium-sized web applications. Flask is an ideal choice for this project for several reasons. Flask is lightweight and simple, making it an excellent choice for small projects, such as the math posting and sharing system that I am trying to make. Also, the flask has the ability to connect the python and sqlite to HTML, that I am gonna use for this project. Here, Flask is used to load file from multiple files. Additionally, Flask has an minimalistic framework, meaning that it doesn't come with as many built-in features compared with onother system, such as Django. While this might seem like a disadvantage, it can actually be an advantage for projects where I don't need all of the features that Django offers.
 
-SQLite is an ideal choice for this application as it provides a lightweight, self-contained, and efficient database management system that can handle the data storage and retrieval needs of this application. Additionally, SQLite offers excellent compatibility with Python, which I am gonna use for this application. Overall, SQLite's reliability, efficiency, and compatibility make it an excellent choice for managing the database in this math-sharing application.
+[^5]:Welcome to Flask — Flask Documentation (2.3.x), https://flask.palletsprojects.com/en/2.3.x/.
 
-
+**Why SQLite?**[^6]
+SQLite is an ideal choice for this application as it provides a lightweight, self-contained, and efficient database management system that can handle the data storage and retrieval needs of this application. Additionally, SQLite offers excellent compatibility with Python, which I am gonna use for this application. Also, SQLite is a serverless database management system, meaning that it doesn't require a separate server process to operate. This can simplify deployment and maintenance, as there is no need to set up and maintain a separate server process. Finally, the uses of 'new line' that happens if user wants to make a long posts, I am struggled to determine was best fit compared with other database management systems. Overall, SQLite's reliability, efficiency, and compatibility make it an excellent choice for managing the database in this application.
+[^6]:https://sqlite.org/index.html
+[^7]:https://cloudinfrastructureservices.co.uk/sqlite-vs-sql-whats-the-difference/#:~:text=SQLite%20vs%20SQL%20(Comparison),used%20to%20access%20the%20database.
 
 
 ## Criteria B: Design
