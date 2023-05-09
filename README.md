@@ -1,5 +1,8 @@
 # Unit 4: Math project
-![](https://github.com/yutaro741/unit4/blob/main/pictures/craiyon_201247_There_is_pen_at_the_middle_of_the_picture__and_many_math_formula_around_it_.png)[^1]
+![](https://github.com/yutaro741/unit4/blob/main/pictures/craiyon_201247_There_is_pen_at_the_middle_of_the_picture__and_many_math_formula_around_it_.png)
+[^1]
+
+[figure 1] AI generated figure 
 [^1]:Craiyon, AI Image Generator, https://www.craiyon.com/. Accessed 7 May 2023.
 
 ## Criteria A: Planning
@@ -14,20 +17,12 @@ So, he asks me to make new website. In the website, he requires the Login system
 
 **Success Criteria**
 
-1. The user can register, login and logout of the system.
-2. The user can switch between different pages.
-3. The system can add and edit posts, including information on title, content, and account.
-4. The system is able to show all text with Tex font style.
-5. The user can view all posts that are made by all users.
-6. The user can do the private chat between other accounts.
-
-Reason of success criteria
-1. To be able to use personal account to manage math posts for each user.
-2. For getting the requirements, login, register, post at the same time. Doing all of the requirements at the same page is unnecessary and difficult to use. Therefore, we needs to make multiple pages, and system to move those pages.
-3. The main part of his want.
-4. The main part of his want.
-5. The main part of his want.
-6. For interacting and communicating with each people, chat system is the most appropriate.
+1. [issue tackled: To be able to use personal account to manage math posts for each user.] The user can register, login and logout of the system.
+2. [issue tackled: For getting the requirements, login, register, post at the same time. Doing all of the requirements at the same page is unnecessary and difficult to use. Therefore, we needs to make multiple pages, and system to move those pages.]The user can switch between different pages.
+3. [issue tackled: To solve the core parts of his wants, manage his post]The system can add and edit posts, including information on title, content, and account.
+4. [issue tackled: his wants. Tex style]The system is able to show all text with Tex font style.
+5. [issue tackled: the wants of his creation with No3]The user can view all posts that are made by all users.
+6. [issue tackled: For interacting and communicating with each people, chat system is the most appropriate.]The user can do the private chat between other accounts.
 
 The confirmation from cliant
 ![](https://github.com/yutaro741/unit4/blob/main/pictures/Screen%20Shot%202023-05-07%20at%2020.25.54.png)
@@ -40,16 +35,17 @@ System The application to manage appliance usage will be developed on the progra
 
 **Design statement**
 
-Software Justification
-Python
+## Rational for the proposed solution
+Why a website?
+Why Python for a website, how is this a good option for the client?(instead of js?)
+Why Flask? why not Django or other Python web frameworks
+Why sqlite?
+
+Python[^4]:“Applications for Python.” Python.org, https://www.python.org/about/apps/#web-and-internet-development. Accessed 9 May 2023.
 
 Python is an ideal programming language for this application due to its versatility, especially when it comes to handling data and working with databases. The use of Python will also allow for the integration of math text types such as Latex and Katex, which will be essential for visualizing mathematical formulas and theorems. Additionally, Python's robust library support will make it possible to implement the necessary features for the login, registration, messaging, and posting functionality efficiently. Therefore, Python is the ideal choice for this project due to its flexibility, simplicity, and efficient development capabilities.
 
-
-HTML and CSS
-
-HTML and CSS are essential for creating the graphical user interface (GUI) of the application, allowing the client to interact with the system and post mathematical theorems, problems, and solutions. HTML is used to create the structure and content of web pages, while CSS is used to style and format them. Additionally, HTML can be used to incorporate math text types like Latex and Katex, as requested by the client, which will make it easy for the client to visualize mathematical expressions.
-
+[^4]
 
 SQLite
 
@@ -72,7 +68,11 @@ SQLite is an ideal choice for this application as it provides a lightweight, sel
 **Test plan**
 
 ## Criteria C: Coding##
+
+### The user can register, login and logout of the system.
 From here, I will show the skills that I uses for making this system.
+
+
 Python:p, HTML/CSS:H, SQL:Q other ideas: O
 
 1. H: link rel to connect to CSS from HTML.
@@ -266,3 +266,8 @@ To post the new things, people will write the original tex code. However, user h
     }
 </script>
 ```
+
+**Criterion D**
+
+
+**Criterion E**
