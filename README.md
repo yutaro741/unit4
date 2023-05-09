@@ -2,7 +2,6 @@
 ![](https://github.com/yutaro741/unit4/blob/main/pictures/craiyon_201247_There_is_pen_at_the_middle_of_the_picture__and_many_math_formula_around_it_.png)
 [^1]
 
-
 [figure 1] AI generated figure 
 [^1]:Craiyon, AI Image Generator, https://www.craiyon.com/. Accessed 7 May 2023.
 
@@ -75,6 +74,7 @@ SQLite is an ideal choice for this application as it provides a lightweight, sel
 
 ### The user can register, login and logout of the system.
 From here, I will show the skills that I uses for making this system.
+
 
 
 Python:p, HTML/CSS:H, SQL:Q other ideas: O
