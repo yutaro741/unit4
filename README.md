@@ -120,8 +120,13 @@ chats
 |      41 	| Make the code clean                                	| Make kivy for GUI to make more clean and organised.                                                                                                  	| 30m           	|                   Mar8 	| C         	|
 |      42 	| Take a video.                                      	| Take a demonstration video.                                                                                                                          	| 20m           	|                   Mar8 	| D         	|
 |      43 	| Edit a video                                       	| Edit a demonstration video                                                                                                                           	| 40m           	|                   Mar8 	| D         	|
-|      44 	| Remake system diagrams                             	| Draw system diagram with the color                                                                                                                   	| 1h            	|                  Mar10 	| B         	|
+|      44 	| Remake system diagrams                             	| Draw system diagram with the color                                                                                                                   	| 1h            	|                  Mar10 	| B         	
+
+
 **Test plan**
+
+
+
 | Task No 	| task                                               	| Planned Outcome                                                                                                                                      	| Time estimate 	| Target completion date 	| Criterion 	|
 |---------	|----------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------	|------------------------	|-----------	|
 |       1 	| First meeting with client                          	| Identify problem, set up future meeting(s)                                                                                                           	| 20m           	|                  Feb20 	| A         	|
