@@ -59,10 +59,12 @@ SQLite is an ideal choice for this application as it provides a lightweight, sel
 
 ## Criteria B: Design
 **System Diagram**
+<img width="968" alt="Screen Shot 2023-05-08 at 16 53 57" src="https://github.com/yutaro741/unit4/assets/111973553/6e5c0b2c-b35a-4bfc-9754-18554ead13b7">
 
 **UML Diagram**
 
 **ER diagram**
+![22B3ED9F-0F07-4F87-AB4A-9BF18923C2B2](https://github.com/yutaro741/unit4/assets/111973553/9681d511-fff8-4523-9ac9-9184ca2e0275)
 
 Examples of ER diagram:
 users
@@ -73,6 +75,11 @@ chats
 ![](https://github.com/yutaro741/unit4/blob/main/pictures/Screen%20Shot%202023-05-09%20at%2017.30.49.png)
 
 **Flow Diagrams**
+![137432FA-7F43-4640-9E50-ABF4B967BFF7](https://github.com/yutaro741/unit4/assets/111973553/884824f5-6de0-4b70-b94c-f7874ae7e2ba)
+![A9914D51-A74E-4DA3-A5E6-01B8F898EBC3](https://github.com/yutaro741/unit4/assets/111973553/8b172ce7-7d22-4fc0-9b99-a16c840e3e98)
+![DEB3AF55-00A0-49B7-BA8C-DDEBC76E5B6F](https://github.com/yutaro741/unit4/assets/111973553/8e62166b-674f-4fcc-88b7-279d7295440a)
+![828017DE-25FA-4E4A-97E5-21FE412AE142](https://github.com/yutaro741/unit4/assets/111973553/b5b86a8c-3cf1-4add-a637-5cc67215bddf)
+![66435369-489A-470A-8156-88EC4EEDFF73](https://github.com/yutaro741/unit4/assets/111973553/e973e96e-31e5-4eb2-adcc-54dbbf98f45c)
 
 **Record of Tasks**
 | Task No 	| task                                               	| Planned Outcome                                                                                                                                      	| Time estimate 	| Target completion date 	| Criterion 	|
@@ -330,7 +337,8 @@ I let the posts to go to the individual posts page for each posts in the lists.
 <table style="border-collapse:collapse">
     <tr>
         <th class="num">user_id</th>
-        <th>author</th>
+        <th>author</th>![Uploading Screen Shot 2023-05-09 at 17.30.32.png…]()
+
         <th>title</th>
     </tr>
     {% for i in posts %}
