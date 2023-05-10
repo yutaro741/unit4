@@ -2,7 +2,6 @@
 ![](https://github.com/yutaro741/unit4/blob/main/pictures/craiyon_201247_There_is_pen_at_the_middle_of_the_picture__and_many_math_formula_around_it_.png)
 [^1]
 
-
 [figure 1] AI generated figure 
 [^1]:Craiyon, AI Image Generator, https://www.craiyon.com/. Accessed 7 May 2023.
 
@@ -175,53 +174,65 @@ chats
 |      43 	| Edit a video                                       	| Edit a demonstration video                                                                                                                           	| 40m           	|                   Mar8 	| D         	|
 |      44 	| Remake system diagrams                             	| Draw system diagram with the color                                                                                                                   	| 1h            	|                  Mar10 	| B         	|
 
-## Criteria C: Coding##
+## Criteria C: Coding
+Things I used for this website:
+Python
+-Flask
+-database_handler(from unit3)
+HTML&CSS
+-MathJax
+SQLite
+
+List of techneque:
+
 
 ### The user can register, login and logout of the system.
 From here, I will show the skills that I uses for making this system.
+For making those registeration screen, I used flasks methods(get, post), request and cookies. 
+Methods: For using it, I can know that user pressed the button(or any other dynamic processing) or not.
+Cookies: It used to store small amounts of data in the user's browser, which can be used to maintain the user's state across multiple requests. This time I used as saving user id.
+request: You ca get the text from HTML and able to use inside the program.
+Also, I used the database_handler from previous project(unit3 project), so go to unit3 if you need an detail.
 
+For example, I have code like this for login system:
+```.py
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":#Check if the button is clicked.
+        username = request.form["username"]
+        password = request.form["password"]
+        if len(username) > 0 and len(password) > 0:#check the entered password is not null.
+            db = database_handler()
+            user = db.get_info(f"""SELECT * FROM users WHERE username='{username}'""")
+            if user:#Check there is account with same username
+                user = user[0]
+                id, username, hashed = user
+                if database_handler().hash(password) == hashed:#Check that account's password is same as entered password.
+                    print("password is correct")
+                    resp = make_response(redirect(url_for("get_user", userid=id)))
+                    resp.set_cookie("user_id", f"{id}")#save user id to cookies and go to profile page.
+                    return resp
+    return render_template("login.html")
+```
 
+For registration page, I just added password check for the account. For the logout system, I even didn't make a page. I just expire the cookie.
+
+### The user can switch between different pages.
+As was a bit in the previous code, the page can be moved by render_template(). Also, To work with a coding, redirect(url_for()) is also useful.
+However, that will be no meaning if you don't make the page, so I will make posting page, prifile page and main page.
+
+### The system can add and edit posts, including information on title, content, and account.
+For the next step, to manage the post, I dicided to make a 
+
+### The system is able to show all text with Tex font style.
+
+### The user can view all posts that are made by all users.
+
+### The user can do the private chat between other accounts.
 
 Python:p, HTML/CSS:H, SQL:Q other ideas: O
 
 1. H: link rel to connect to CSS from HTML.
-I made the pass from HTML to CSS to be able to use the coding in CSS to HTML. I will use the same CSS for all pages. I will use this for all of the HTML pages, to aboid writting all of the CSS every time. 
-```.py
-<link rel="stylesheet" href="../static/my_style.css">
-```
-
-
-2. H: input, button, form
-This is the form to write the information from user, such as username and password. I wrote as method=POST that I can use after in python.
-```.py
-<main>
-    <div class="row">
-        <div class="colm-form">
-            <div class="form-container">
-                <form method="POST">
-                    <input type="text" name="username" placeholder="username">
-                    <input type="password" name="password" placeholder="Password">
-                    <button class="btn-login">Login</button>
-                </form>
-            </div>
-            <p><a href="#"><b>Login to `PostMath`</b></a> to the new math world.</p>
-        </div>
-    </div>
-</main>
- ```
-3. H: CSS writting(background-color, border, padding, color)
-Because I wrote the class that I didn't make so far, I need to make those. I made class called, row, colm-form, form-container, btn-login. By making writing a CSS code for login system, I used background-color, border, padding, color and many other way. This is one of example.
-```.py
-.colm-form .form-container .btn-login {
-    background-color: #1877f2;
-    border: none;
-    border-radius: 6px;
-    font-size: 20px;
-    padding: 0 16px;
-    color: #ffffff;
-    font-weight: 700;
-}
-```
 
 4. P: Flask, function, render_template
 To run the function, I will use Python-flask. I will use .route method and render template to show the HTML file page.
