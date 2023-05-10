@@ -522,7 +522,49 @@ post/profile.html
 This program shows if there is any update in the form, and if there is reload in the form, the text will appear and shows the same things that is written in the textbox below the form, with the Latex.
 Because of this, user can see the posts that passes the Latex. Therefore, the user can check the Latex is working properlly, and able to check that there is no typing mistake.
 
+Results:
+<img width="819" alt="Screen Shot 2023-05-10 at 17 45 09" src="https://github.com/yutaro741/unit4/assets/111973553/28b59b7b-3e13-49a1-aa67-d0005298678d">
+<img width="788" alt="Screen Shot 2023-05-10 at 18 07 09" src="https://github.com/yutaro741/unit4/assets/111973553/c427a762-5505-42ad-8d49-692011cfbde0">
+It automatically shows the posts with latex! amazing!
+
 ### The user can do the private chat between other accounts.
+This one is not that hard. I just make an option in profile page, -if the user is logined but not the same accout with the profile page- that can send the messsage to user in profile page.
+I can just place the message on the right side on the page. Specificlly, in the profile page, I can show the message that made with logined user and user that is in profile page.
+I use the for loop to find the username of each user, and for loop with html for showing that data.
+
+For example, profile page python code:
+```.py
+~~~
+#Code below is for getting all of the messages.
+query = f"""SELECT * from chats WHERE (me_id = {userid} and you_id = {user_id}) or (me_id = {user_id} and you_id = {userid}) ORDER BY id DESC"""
+chat = db.get_info(query)#Get all of the messages that logined user sent/recieved
+out = []
+for i in chat:#Add each username into the message list.
+    s = [i[0], i[1], i[2], i[3]]
+    query = f"""SELECT username from users WHERE id={i[1]}"""
+    x = db.get_info(query)
+    s.append(x[0][0])
+    query = f"""SELECT username from users WHERE id={i[2]}"""
+    x = db.get_info(query)
+    s.append(x[0][0])
+    out.append(s)
+chats = db.get_chat(user_id)
+~~~
+```
+profile.html:
+```.html
+~~~
+{% for c in chat %}
+    <tr>
+        <td>{{ c[5] }}</td>
+        <td>{{ c[4] }}</td>
+        <td>{{ c[3] }}</td>
+    </tr>
+{% endfor %}
+~~~
+```
+As the results, I can see the all of the chats at the side of the website.
+<img width="1680" alt="Screen Shot 2023-05-10 at 18 13 10" src="https://github.com/yutaro741/unit4/assets/111973553/c79dd95b-ad67-4b99-9b7f-ff3487437a8e">
 
 
 **Criterion D**
