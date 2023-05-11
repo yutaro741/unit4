@@ -18,11 +18,17 @@ So, he asks me to make new website. In the website, he requires the Login system
 **Success Criteria**
 
 1. [issue tackled: To be able to use personal account to manage math posts for each user.] The user can register, login and logout of the system.
+Objective measurement: Verify that the registration process allows users to create an account successfully, login process grants access to the system, and logout process ends the session without any errors.
 2. [issue tackled: For getting the requirements, login, register, post at the same time. Doing all of the requirements at the same page is unnecessary and difficult to use. Therefore, we needs to make multiple pages, and system to move those pages.]The user can switch between different pages.
+Objective measurement: Test the functionality of page navigation by ensuring that users can easily and seamlessly move between different pages within the system without encountering errors or usability issues.
 3. [issue tackled: To solve the core parts of his wants, manage his post]The system can add and edit posts, including information on title, content, and account.
+Objective measurement: Test the system's ability to add new posts, verify that the required information (title, content, and associated account) is successfully stored and displayed, and ensure that editing existing posts updates the relevant information accurately.
 4. [issue tackled: his wants. Tex style]The system is able to show all text with Tex font style.
+Objective measurement: Evaluate whether the system consistently renders text in the desired Tex font style throughout the application, ensuring that the displayed text maintains the intended formatting and appearance.
 5. [issue tackled: the wants of his creation with No3]The user can view all posts that are made by all users.
+Objective measurement: Confirm that the system provides a comprehensive display of all posts created by all users, ensuring that no posts are omitted or hidden from view, and that the displayed posts are presented accurately and completely.
 6. [issue tackled: For interacting and communicating with each people, chat system is the most appropriate.]The user can do the private chat between other accounts.
+Objective measurement: Test the private chat functionality by verifying that users can initiate and engage in private conversations with other accounts, ensuring that messages are sent and received accurately, and that the privacy and security of the chat system are maintained.
 
 The confirmation from cliant
 ![](https://github.com/yutaro741/unit4/blob/main/pictures/Screen%20Shot%202023-05-07%20at%2020.25.54.png)
