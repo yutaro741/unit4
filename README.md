@@ -566,8 +566,7 @@ profile.html:
 As the results, I can see the all of the chats at the side of the website.
 <img width="1680" alt="Screen Shot 2023-05-10 at 18 13 10" src="https://github.com/yutaro741/unit4/assets/111973553/c79dd95b-ad67-4b99-9b7f-ff3487437a8e">
 
+## Criterion D
 
-**Criterion D**
 
-
-**Criterion E**
+## Criterion E
