@@ -68,6 +68,7 @@ SQLite is an ideal choice for this application as it provides a lightweight, sel
 <img width="968" alt="Screen Shot 2023-05-08 at 16 53 57" src="https://github.com/yutaro741/unit4/assets/111973553/6e5c0b2c-b35a-4bfc-9754-18554ead13b7">
 
 **UML Diagram**
+<img width="679" alt="Screen Shot 2023-05-11 at 16 45 54" src="https://github.com/yutaro741/unit4/assets/111973553/2ada6cbc-cd3c-4f6f-bc78-8510ae7d7081">
 
 **ER diagram**
 ![22B3ED9F-0F07-4F87-AB4A-9BF18923C2B2](https://github.com/yutaro741/unit4/assets/111973553/9681d511-fff8-4523-9ac9-9184ca2e0275)
