@@ -573,3 +573,26 @@ Script
 https://docs.google.com/document/d/17RhwhugTgnyRK-7lTkffVPCr8CJ9haByb5E0chXQdec/edit?usp=sharing
 
 ## Criterion E
+Feedback from cliant:
+| Cliant 	| Success criteria                                                                         	| Sccessed or not(out of 3) 	| Feedback                                                        	| Further development                                                                                                	|
+|--------	|------------------------------------------------------------------------------------------	|---------------------------	|-----------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------	|
+|      1 	| The user can register, login and logout of the system.                                   	|                         3 	| Perfect                                                         	| N/A                                                                                                                	|
+|      2 	| The user can switch between different pages.                                             	|                         3 	| Perfect                                                         	| Make searching system. Also development of GUI                                                                     	|
+|      3 	| The system can add and edit posts, including information on title, content, and account. 	|                         2 	| I didn't say it, but able to delete as well.                    	| Able to delete posts easelly.                                                                                      	|
+|      4 	| The system is able to show all text with Tex font style.                                 	|                       100 	| It was better than I thought.                                   	| Make rotation thingy.                                                                                              	|
+|      5 	| The user can view all posts that are made by all users.                                  	|                         3 	| Good, but I also want to have a searching system                	| Searching system.                                                                                                  	|
+|      6 	| The user can do the private chat between other accounts.                                 	|                         3 	| It is problem that you can't send the message that is too long. 	| Make it able to send long message. Let it possible to block someone/change setting to not be able to send message. 	|
+
+
+| Cliant 	| Success criteria                                                                         	| Sccessed or not(out of 3) 	| Feedback                                                        	| Further development                                                                                                	|
+|--------	|------------------------------------------------------------------------------------------	|---------------------------	|-----------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------	|
+|      1 	| The user can register, login and logout of the system.                                   	|                         3 	| Perfect                                                         	| N/A                                                                                                                	|
+|      2 	| The user can switch between different pages.                                             	|                         3 	| Perfect                                                         	| Make searching system. Also development of GUI                                                                     	|
+|      3 	| The system can add and edit posts, including information on title, content, and account. 	|                         2 	| I didn't say it, but able to delete as well.                    	| Able to delete posts easelly.                                                                                      	|
+|      4 	| The system is able to show all text with Tex font style.                                 	|                       100 	| It was better than I thought.                                   	| Make rotation thingy.                                                                                              	|
+|      5 	| The user can view all posts that are made by all users.                                  	|                         3 	| Good, but I also want to have a searching system                	| Searching system.                                                                                                  	|
+|      6 	| The user can do the private chat between other accounts.                                 	|                         3 	| It is problem that you can't send the message that is too long. 	| Make it able to send long message. Let it possible to block someone/change setting to not be able to send message. 	|
+
+**Recommendation 1**
+
+**Recommendation 2**
