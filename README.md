@@ -567,6 +567,9 @@ As the results, I can see the all of the chats at the side of the website.
 <img width="1680" alt="Screen Shot 2023-05-10 at 18 13 10" src="https://github.com/yutaro741/unit4/assets/111973553/c79dd95b-ad67-4b99-9b7f-ff3487437a8e">
 
 ## Criterion D
-
+Video
+https://drive.google.com/drive/folders/1B4tLp6y72Nwf5ufOqXBKxAgS3HBtt_As?usp=sharing
+Script
+https://docs.google.com/document/d/17RhwhugTgnyRK-7lTkffVPCr8CJ9haByb5E0chXQdec/edit?usp=sharing
 
 ## Criterion E
