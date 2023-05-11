@@ -30,8 +30,9 @@ Objective measurement: Confirm that the system provides a comprehensive display 
 6. [issue tackled: For interacting and communicating with each people, chat system is the most appropriate.]The user can do the private chat between other accounts.
 Objective measurement: Test the private chat functionality by verifying that users can initiate and engage in private conversations with other accounts, ensuring that messages are sent and received accurately, and that the privacy and security of the chat system are maintained.
 
-The confirmation from cliant
+[figure 2]The confirmation from cliant
 ![](https://github.com/yutaro741/unit4/blob/main/pictures/Screen%20Shot%202023-05-07%20at%2020.25.54.png)
+
 
 **Proposed Solution**
 
@@ -66,27 +67,40 @@ SQLite is an ideal choice for this application as it provides a lightweight, sel
 ## Criteria B: Design
 **System Diagram**
 <img width="968" alt="Screen Shot 2023-05-08 at 16 53 57" src="https://github.com/yutaro741/unit4/assets/111973553/6e5c0b2c-b35a-4bfc-9754-18554ead13b7">
+[figure 3]System diagram of the program
+
 
 **UML Diagram**
 <img width="679" alt="Screen Shot 2023-05-11 at 16 45 54" src="https://github.com/yutaro741/unit4/assets/111973553/2ada6cbc-cd3c-4f6f-bc78-8510ae7d7081">
+[figure 4]UML diagram of the program
 
 **ER diagram**
 ![22B3ED9F-0F07-4F87-AB4A-9BF18923C2B2](https://github.com/yutaro741/unit4/assets/111973553/9681d511-fff8-4523-9ac9-9184ca2e0275)
+[figure 5]ER diagram of the program
 
 Examples of ER diagram:
 users
 ![](https://github.com/yutaro741/unit4/blob/main/pictures/Screen%20Shot%202023-05-09%20at%2017.30.32.png)
+[figure 6]Example of database users
 posts
 ![](https://github.com/yutaro741/unit4/blob/main/pictures/Screen%20Shot%202023-05-09%20at%2017.30.43.png)
+[figure 7]Example of databse posts
 chats
 ![](https://github.com/yutaro741/unit4/blob/main/pictures/Screen%20Shot%202023-05-09%20at%2017.30.49.png)
+[figure 8]Example of databse chats
 
 **Flow Diagrams**
-![137432FA-7F43-4640-9E50-ABF4B967BFF7](https://github.com/yutaro741/unit4/assets/111973553/884824f5-6de0-4b70-b94c-f7874ae7e2ba)
 ![A9914D51-A74E-4DA3-A5E6-01B8F898EBC3](https://github.com/yutaro741/unit4/assets/111973553/8b172ce7-7d22-4fc0-9b99-a16c840e3e98)
+[figure 9]Flow diagram of login system
 ![DEB3AF55-00A0-49B7-BA8C-DDEBC76E5B6F](https://github.com/yutaro741/unit4/assets/111973553/8e62166b-674f-4fcc-88b7-279d7295440a)
+[figure 10]Flow diagram of register system
+![137432FA-7F43-4640-9E50-ABF4B967BFF7](https://github.com/yutaro741/unit4/assets/111973553/884824f5-6de0-4b70-b94c-f7874ae7e2ba)
+[figure 11]Flow diagram of post page(update)
 ![828017DE-25FA-4E4A-97E5-21FE412AE142](https://github.com/yutaro741/unit4/assets/111973553/b5b86a8c-3cf1-4add-a637-5cc67215bddf)
+[figure 12]Flow diagram of post page(open)
 ![66435369-489A-470A-8156-88EC4EEDFF73](https://github.com/yutaro741/unit4/assets/111973553/e973e96e-31e5-4eb2-adcc-54dbbf98f45c)
+[figure 13]Flow diagram of profile page
+
 
 **Record of Tasks**
 | Task No 	| task                                               	| Planned Outcome                                                                                                                                      	| Time estimate 	| Target completion date 	| Criterion 	|
@@ -136,6 +150,7 @@ chats
 |      43 	| Edit a video                                       	| Edit a demonstration video                                                                                                                           	| 40m           	|                   Mar8 	| D         	|
 |      44 	| Remake system diagrams                             	| Draw system diagram with the color                                                                                                                   	| 1h            	|                  Mar10 	| B         	
 
+[figure 14] Record of tasks
 
 **Test plan**
 
@@ -188,6 +203,7 @@ chats
 |      43 	| Edit a video                                       	| Edit a demonstration video                                                                                                                           	| 40m           	|                   Mar8 	| D         	|
 |      44 	| Remake system diagrams                             	| Draw system diagram with the color                                                                                                                   	| 1h            	|                  Mar10 	| B         	|
 
+[figure 15]test plan
 ## Criteria C: Coding
 Things I used for this website:
 Python
@@ -231,7 +247,10 @@ Also, this will import my_style.css from the coding, to improve how it shows in 
 I wrote so many CSS code in the project, but it is just the change in GUI, so I will not shows in this criteria C. If you want to see the dtails, please see the codes.
 
 Also, I made the database(users, posts, chats) for the part. The prosess of making database is in the previous project, so please see that.
+
 <img width="235" alt="Screen Shot 2023-05-10 at 16 35 50" src="https://github.com/yutaro741/unit4/assets/111973553/f9643d08-8d27-4230-b070-bacbe7947925">
+
+[figure 16]The daatabases
 
 ### SC1: The user can register, login and logout of the system.
 From here, I will show the skills that I uses for making this system.
@@ -292,9 +311,12 @@ Also, I write the html for putting in the data. Below is the login.html
 ```
 I used the techenique of class, that can change how it shows in from CSS. Also, I write a method=post to send a data that form is completed into python.
 So, with writting the html and css, I could be able to show in the website. I could see those kind of screen.
+
 <img width="445" alt="Screen Shot 2023-05-10 at 16 31 28" src="https://github.com/yutaro741/unit4/assets/111973553/1e987b3a-131d-4ce7-93db-6fa91ffc0c42">
 
-For registration page, I just added password check for the account. For the logout system, I even didn't make a page. I just expire the cookie.
+[figure 17]login screen
+
+For registration page, I just added password check for the account. For the logout system, I even didn't make a page. I just expire the cookie. Please watch the movie for details.
 
 
 ### SC2: The user can switch between different pages.
@@ -335,9 +357,16 @@ def ~~~~~():
 
 This is the result.
 If the user is not logined:
+
 <img width="1680" alt="Screen Shot 2023-05-10 at 16 45 21" src="https://github.com/yutaro741/unit4/assets/111973553/70cccef4-dc3a-4be2-a273-5f8a20d55fc2">
+
+[figure 18]Header when user is not logined
+
 If the user is logined:
+
 <img width="1680" alt="Screen Shot 2023-05-10 at 16 45 29" src="https://github.com/yutaro741/unit4/assets/111973553/bd71731c-0105-4841-895d-9ac52ec6bf0f">
+
+[figure 19]Header when user logined
 
 So, the website gets very easy to change the screen from one and onother.
 
@@ -383,15 +412,20 @@ HTML:
 ~~~~
 ```
 So, I could make the main page to be able to go to the post.(look like this)
+
 <img width="1250" alt="Screen Shot 2023-05-10 at 17 35 02" src="https://github.com/yutaro741/unit4/assets/111973553/81cf36ff-d3f5-419a-8c49-72dde87a8899">
 
+[figure 20]The main screen
 
 Also, I made the each table to be able to link to the post page(that will show afterwords) and profile page.
 
 In the profile page, I will make the page that shows all of the post that made by the specific user. By doing that, It will be getting easy to show and search about the posts.
 The way to make the profile page is mostly same, and just limit the things that shows from the posts, so I will not show you a code. 
 The results gets like this.
+
 <img width="830" alt="Screen Shot 2023-05-10 at 17 36 03" src="https://github.com/yutaro741/unit4/assets/111973553/65cd101c-aece-463c-a792-d5193945f788">
+
+[figure 21]profile page
 
 
 ### SC3. The system can add and edit posts, including information on title, content, and account.
@@ -432,9 +466,17 @@ def get_user(userid):
     ~~~~~~
 ```
 So, I am able to make the program that shows entering screen. the results is like this. I am logining with account called "z"
+
 <img width="793" alt="Screen Shot 2023-05-10 at 17 02 07" src="https://github.com/yutaro741/unit4/assets/111973553/6bede219-3b13-42f2-8ce6-b778f1d4d07c">
+
+[figure 22]improved profile page(same account)
+
 Shows the screen that can post something.
+
 <img width="806" alt="Screen Shot 2023-05-10 at 17 02 29" src="https://github.com/yutaro741/unit4/assets/111973553/5b95ca7f-14d5-4c62-8acb-fac6ffd1a1d5">
+
+[figure 21]improved profile page(different account)
+
 Do not shows the post screen. Instead of that, I will show the private chat between them.(write afterwords)
 
 Now, we can see the list of the posts and able to upload it. However, there is no meaning if you can't see all of the posts, or edit a posts. So, I will make onother place that can see the post, and also to be able to edit that post if the post is logined post.
@@ -466,9 +508,17 @@ There is no special tequnique that I used for the html, so I will just cut it ou
 
 Results
 if you have different account/not logined:
+
 <img width="834" alt="Screen Shot 2023-05-10 at 17 44 43" src="https://github.com/yutaro741/unit4/assets/111973553/9daa2e34-060c-4a55-b454-6b2cd2b38976">
+
+[figure 23]post page(not logined)
+
 if you are logined with the account that posted:
+
 <img width="819" alt="Screen Shot 2023-05-10 at 17 45 09" src="https://github.com/yutaro741/unit4/assets/111973553/50f19415-af88-45f9-af3e-c4aee0277de1">
+
+[figure 24]post page(logined)
+
 So, in this criteria, I am able to add/edit/see the posts.
 
 ### SC5: The system is able to show all text with Tex font style.
@@ -530,8 +580,15 @@ This program shows if there is any update in the form, and if there is reload in
 Because of this, user can see the posts that passes the Latex. Therefore, the user can check the Latex is working properlly, and able to check that there is no typing mistake.
 
 Results:
+
 <img width="819" alt="Screen Shot 2023-05-10 at 17 45 09" src="https://github.com/yutaro741/unit4/assets/111973553/28b59b7b-3e13-49a1-aa67-d0005298678d">
+
+[figure 25]post edit page when opened
+
 <img width="788" alt="Screen Shot 2023-05-10 at 18 07 09" src="https://github.com/yutaro741/unit4/assets/111973553/c427a762-5505-42ad-8d49-692011cfbde0">
+
+[figure 26]post edit page when edited
+
 It automatically shows the posts with latex! amazing!
 
 ### The user can do the private chat between other accounts.
@@ -571,7 +628,10 @@ profile.html:
 ~~~
 ```
 As the results, I can see the all of the chats at the side of the website.
+
 <img width="1680" alt="Screen Shot 2023-05-10 at 18 13 10" src="https://github.com/yutaro741/unit4/assets/111973553/c79dd95b-ad67-4b99-9b7f-ff3487437a8e">
+
+[figure 27]final profile page
 
 ## Criterion D
 Video
@@ -580,6 +640,9 @@ Script
 https://docs.google.com/document/d/17RhwhugTgnyRK-7lTkffVPCr8CJ9haByb5E0chXQdec/edit?usp=sharing
 
 ## Criterion E
+
+memo:https://docs.google.com/document/d/1sO78bfn9AhxLug2k9wMZJWI4IzSHBWK3ixWrDTtXOng/edit?usp=sharing
+
 Feedback from cliant:
 | Cliant 	| Success criteria                                                                         	| Sccessed or not(out of 3) 	| Feedback                                                        	| Further development                                                                                                	|
 |--------	|------------------------------------------------------------------------------------------	|---------------------------	|-----------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------	|
@@ -590,6 +653,7 @@ Feedback from cliant:
 |      5 	| The user can view all posts that are made by all users.                                  	|                         3 	| Good, but I also want to have a searching system                	| Searching system.                                                                                                  	|
 |      6 	| The user can do the private chat between other accounts.                                 	|                         3 	| It is problem that you can't send the message that is too long. 	| Make it able to send long message. Let it possible to block someone/change setting to not be able to send message. 	|
 
+[figure 28]The list of feedback from cliants
 
 | Person G 	| Success criteria                                                                         	| Sccessed or not(out of 3) 	| Feedback                      	| Further development                             	|
 |----------	|------------------------------------------------------------------------------------------	|---------------------------	|-------------------------------	|-------------------------------------------------	|
@@ -599,6 +663,8 @@ Feedback from cliant:
 |        4 	| The system is able to show all text with Tex font style.                                 	| ?                         	| Don't know about tex writing. 	| N/A                                             	|
 |        5 	| The user can view all posts that are made by all users.                                  	|                         2 	| Why no searching?             	| Searching system                                	|
 |        6 	| The user can do the private chat between other accounts.                                 	|                         3 	| want to send to multiple user 	| Let able to make a group between multiple user. 	|
+
+[figure 29]The list of feedback from person G
 
 **Recommendation 1**
 Even on the small scale I made had so far, we sometimes lose track of which post I wrote on, and it should get harder and harder as the number of users grows. Also, with the previous way of updating by post-id, the new ones keep moving up and the old ones are not seen. So, as mentioned in the feedback, I will recommend to create a feature that allows users to search for post.
